@@ -11,4 +11,8 @@
     <PackageReference Include="StackExchange.Redis" Version="3.4.31" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="docs\" />
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,34 @@
-# Ignore Visual Studio files
-   .vs/
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
-   # Ignore build output directories
-   bin/
-   obj/
+## Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+## Visual Studio Code & JetBrains Rider
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.DotSettings.user
+
+## User-specific files & Environment
+*.rsuser
+*.suo
+*.user
+.env
+.env.*
+!.env.example
+
+## Test results & coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
